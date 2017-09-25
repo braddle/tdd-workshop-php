@@ -1,0 +1,17 @@
+{
+    "name": "braddle/tdd-workshop",
+    "description": "TODO",
+    "type": "library",
+    "require": {
+        "phpunit/phpunit": "^6.3",
+        "mockery/mockery": "^0.9.9"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mark Bradley",
+            "email": "braddle@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
