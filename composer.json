@@ -2,6 +2,12 @@
     "name": "braddle/tdd-workshop",
     "description": "TODO",
     "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Braddle\\Test\\": "test",
+            "Braddle\\": "src"
+        }
+    },
     "require": {
         "phpunit/phpunit": "^6.3",
         "mockery/mockery": "^0.9.9"
