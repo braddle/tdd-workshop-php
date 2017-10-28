@@ -10,7 +10,8 @@
     },
     "require": {
         "phpunit/phpunit": "^6.3",
-        "mockery/mockery": "^0.9.9"
+        "mockery/mockery": "^0.9.9",
+        "humbug/humbug": "~1.0@dev"
     },
     "license": "MIT",
     "authors": [
