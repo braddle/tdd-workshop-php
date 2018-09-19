@@ -11,3 +11,16 @@ As a group we will implement a String Stack (First In, Last Out - FILO) that wil
 ### Task 1 (Queue - Abstract Data Type)
 
 In pairs you will implement a String Queue (First In, First Out - FIFO) that will conform to the [Collection Interface](src/Collection.php).
+
+### Demo 2 (Lunchtime Meal Deal - Simple Application)
+
+As a group we will implement a Simple Application that conforms to the [Till Interface](src/MealDeal/Till.php) to calculate the total cost of a basket based on the lunch time meal deal
+
+  - Sandwich £2.00
+  - Drink £0.90
+  - Crisps £0.50
+  - Sandwich, Drink & Crisp £3.00
+  
+### Task 2 (TODO - Simple Application)
+
+TODO
