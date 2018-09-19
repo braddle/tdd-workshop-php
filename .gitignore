@@ -2,4 +2,7 @@
 
 .idea
 
-/humbuglog.txt
+debug.log
+mutation-log.txt
+per-mutator.md
+summary.log

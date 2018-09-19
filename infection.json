@@ -1,0 +1,17 @@
+{
+    "source": {
+        "directories": [
+            "src\/Number"
+        ]
+    },
+    "timeout": 10,
+    "logs": {
+        "text": "mutation-log.txt",
+        "summary": "summary.log",
+        "debug": "debug.log",
+        "perMutator": "per-mutator.md",
+        "badge": {
+        	"branch": "master"
+        }
+    }
+}
