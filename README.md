@@ -4,14 +4,10 @@ This is the PHP code base to use when attending my introduction to TDD workshop
 
 ## Tasks
 
-### Task 1 (First Unit tests)
+### Demo 1 (Stack - Abstract Data Type)
 
-Writing all tests first create an implementation of the [MarkInteger interface](src/Number/MarksInteger.php).
+As a group we will implement a String Stack (First In, Last Out - FILO) that will conform to the [Collection Interface](src/Collection.php).
 
-### Task 2 (Refactoring)
+### Task 1 (Queue - Abstract Data Type)
 
-Refactor the existing [Calculator](src/Number/Calculator.php) Class without breaking or editing the [tests](test/Number/CalculatorTest.php) that exist for it.
-
-### Tast 3 (Mocking)
-
-TODO
+In pairs you will implement a String Queue (First In, First Out - FIFO) that will conform to the [Collection Interface](src/Collection.php).
