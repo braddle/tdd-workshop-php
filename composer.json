@@ -9,9 +9,9 @@
         }
     },
     "require": {
-        "phpunit/phpunit": "^6.3",
-        "mockery/mockery": "^0.9.9",
-        "humbug/humbug": "~1.0@dev"
+        "phpunit/phpunit": "^7.0",
+        "mockery/mockery": "^1.0",
+        "infection/infection": "^0.10"
     },
     "license": "MIT",
     "authors": [
