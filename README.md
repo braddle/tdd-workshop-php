@@ -24,3 +24,20 @@ As a group we will implement a Simple Application that conforms to the [Till Int
 ### Task 2 (TODO - Simple Application)
 
 TODO
+
+### Demo 3 (Ledger - Dependencies: London Style)
+
+As a group we will implement the [Ledger Interface](src/Ledger/Ledger.php) using the London / Interaction style of testing  
+
+### Demo 4 (Ledger - Dependencies: Chicago Style)
+
+As a group we will implement the [Ledger Interface](src/Ledger/Ledger.php) using the Chicago / State style of testing
+
+### Task 3 (TODO - Dependencies: London Style)
+
+TODO
+
+### Task 4 (TODO - Dependencies: Chicago Style)
+
+TODO
+
