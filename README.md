@@ -6,15 +6,18 @@ This is the PHP code base to use when attending my introduction to TDD workshop
 
 ### Demo 1 (Stack - Abstract Data Type)
 
-As a group we will implement a String Stack (First In, Last Out - FILO) that will conform to the [Collection Interface](src/Collection.php).
+As a group we will implement a String Stack (First In, Last Out - FILO) that will conform to the 
+[Collection Interface](src/Collection.php).
 
 ### Task 1 (Queue - Abstract Data Type)
 
-In pairs you will implement a String Queue (First In, First Out - FIFO) that will conform to the [Collection Interface](src/Collection.php).
+In pairs you will implement a String Queue (First In, First Out - FIFO) that will conform to the 
+[Collection Interface](src/Collection.php).
 
 ### Demo 2 (Lunchtime Meal Deal - Simple Application)
 
-As a group we will implement a Simple Application that conforms to the [Till Interface](src/Till/Till.php) to calculate the total cost of a basket based on the lunch time meal deal
+As a group we will implement a Simple Application that conforms to the [Till Interface](src/Till/Till.php) to calculate
+the total cost of a basket based on the lunch time meal deal
 
   - Sandwich £2.00
   - Drink £0.90
@@ -23,7 +26,8 @@ As a group we will implement a Simple Application that conforms to the [Till Int
   
 ### Task 2 (BOGOF & BTGTHP - Simple Application)
 
-In pairs you will continue to implement the [Till Interface](src/Till/Till.php)  to calculate the total cost of a basket based on Baked Beans and Spaghetti Hoop offers
+In pairs you will continue to implement the [Till Interface](src/Till/Till.php)  to calculate the total cost of a basket
+based on Baked Beans and Spaghetti Hoop offers
 
   - Baked Beans £0.75
   - Spaghetti Hoops £0.80
@@ -38,19 +42,32 @@ In pairs you will continue to implement the [Till Interface](src/Till/Till.php) 
      
 ### Demo 3 (Ledger - Dependencies: London Style)
 
-As a group we will implement the [Ledger Interface](src/Ledger/Ledger.php) using the London / Interaction style of testing  
+As a group we will implement the [Ledger Interface](src/Ledger/Ledger.php) using the London / Interaction style of 
+testing  
 
 ### Demo 4 (Ledger - Dependencies: Chicago Style)
 
 As a group we will implement the [Ledger Interface](src/Ledger/Ledger.php) using the Chicago / State style of testing
 
-### Task 3 (TODO - Dependencies: London Style)
+### Task 3 (FileLogger - Dependencies: London Style)
 
-TODO
+In Pairs you need to implement [Logger Interface](src/Logging/Logging.php) that uses an 
+[SplFileObject](http://php.net/manual/en/class.splfileobject.php) using the London / Interaction style of testing
 
-### Task 4 (TODO - Dependencies: Chicago Style)
+Note: When creating the mock of SplFileObject the mock requires you give the first constructor argument. 
 
-TODO
+See Example:
+
+```php
+    $file = \Mockery::mock(\SplFileObject::class, ['/dev/null']);
+```
+
+### Task 4 (FileLogger - Dependencies: Chicago Style)
+
+In Pairs you need to implement [Logger Interface](src/Logging/Logging.php) that uses an 
+[SplFileObject](http://php.net/manual/en/class.splfileobject.php) using the Chicago / State style of testing
+
+Note: the [exec](http://php.net/manual/en/function.exec.php) may be helpful for setup and assertions   
 
 ### Demo 5 (Interger - Mutation Testing)
 

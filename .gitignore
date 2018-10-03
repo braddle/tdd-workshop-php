@@ -6,3 +6,5 @@ debug.log
 mutation-log.txt
 per-mutator.md
 summary.log
+
+test/Logging/test.log
