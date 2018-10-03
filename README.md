@@ -14,17 +14,28 @@ In pairs you will implement a String Queue (First In, First Out - FIFO) that wil
 
 ### Demo 2 (Lunchtime Meal Deal - Simple Application)
 
-As a group we will implement a Simple Application that conforms to the [Till Interface](src/MealDeal/Till.php) to calculate the total cost of a basket based on the lunch time meal deal
+As a group we will implement a Simple Application that conforms to the [Till Interface](src/Till/Till.php) to calculate the total cost of a basket based on the lunch time meal deal
 
   - Sandwich £2.00
   - Drink £0.90
   - Crisps £0.50
   - Sandwich, Drink & Crisp £3.00
   
-### Task 2 (TODO - Simple Application)
+### Task 2 (BOGOF & BTOHP - Simple Application)
 
-TODO
+In pairs you will continue to implement the [Till Interface](src/Till/Till.php)  to calculate the total cost of a basket based on Baked Beans and Spaghetti Hoop offers
 
+  - Baked Beans £0.75
+  - Spaghetti Hoops £0.80
+  
+  - Baked Beans Offer: Buy One Get One Free (BOGOF) 
+    - 2 * Baked Beans = £0.75
+    - 3 * Baked Beans = £1.50
+  - Spaghetti Hoop Offer: Buy Two Get One Half Price (BTOHP)
+    - 2 * Spaghetti Hoops = £1.60
+    - 3 * Spaghetti Hoops = £2.00
+    - 4 * Spaghetti Hoops = £2.80
+     
 ### Demo 3 (Ledger - Dependencies: London Style)
 
 As a group we will implement the [Ledger Interface](src/Ledger/Ledger.php) using the London / Interaction style of testing  
