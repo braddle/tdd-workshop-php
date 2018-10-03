@@ -21,7 +21,7 @@ As a group we will implement a Simple Application that conforms to the [Till Int
   - Crisps £0.50
   - Sandwich, Drink & Crisp £3.00
   
-### Task 2 (BOGOF & BTOHP - Simple Application)
+### Task 2 (BOGOF & BTGTHP - Simple Application)
 
 In pairs you will continue to implement the [Till Interface](src/Till/Till.php)  to calculate the total cost of a basket based on Baked Beans and Spaghetti Hoop offers
 
@@ -31,7 +31,7 @@ In pairs you will continue to implement the [Till Interface](src/Till/Till.php) 
   - Baked Beans Offer: Buy One Get One Free (BOGOF) 
     - 2 * Baked Beans = £0.75
     - 3 * Baked Beans = £1.50
-  - Spaghetti Hoop Offer: Buy Two Get One Half Price (BTOHP)
+  - Spaghetti Hoop Offer: Buy Two Get Third Half Price (BTGTHP)
     - 2 * Spaghetti Hoops = £1.60
     - 3 * Spaghetti Hoops = £2.00
     - 4 * Spaghetti Hoops = £2.80
