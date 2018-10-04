@@ -73,3 +73,6 @@ Note: the [exec](http://php.net/manual/en/function.exec.php) may be helpful for 
 
 Demonstrating how [Infection](https://infection.github.io/) a PHP mutation testing library can be used ensure tests full
 
+### Demo 6 (Date Range - Changing the requirements)
+
+Demonstrating how to change the tests when the requirements change.
