@@ -1,4 +1,4 @@
-# Test Driven Developement Workshop
+# Test Driven Developement Workshop (PHP)
 
 This is the PHP code base to use when attending my introduction to TDD workshop
 
@@ -69,7 +69,7 @@ In Pairs you need to implement [Logger Interface](src/Logging/Logging.php) that 
 
 Note: the [exec](http://php.net/manual/en/function.exec.php) may be helpful for setup and assertions   
 
-### Demo 5 (Interger - Mutation Testing)
+### Demo 5 (Integer - Mutation Testing)
 
 Demonstrating how [Infection](https://infection.github.io/) a PHP mutation testing library can be used ensure tests full
 
